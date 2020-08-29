@@ -1,0 +1,36 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain('the.dns'),
+domain('dlsite.com'),
+domain('jandi.com'),
+domain('ruten.com.tw'),
+domain('shopee.tw'),
+domain('techbang.com'),
+domain('telegram.org'),
+domain('yuplay.ru') {
+
+  *,
+  html,
+  body,
+  p,
+  span,
+  a,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  th,
+  td {
+    font-family: FontAwesome, Ubuntu, "源泉圓體", "jf open 粉圓 1.1",
+      "Noto Sans CJK JP", "Noto Sans TC", Sans-Serif !important;
+  }
+}
+
+@-moz-document domain('disp.cc'),
+domain('ptt.cc') {
+  * {
+    font-family: "標楷體", Sans-Serif !important;
+  }
+}
