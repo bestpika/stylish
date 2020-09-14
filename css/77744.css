@@ -34,3 +34,11 @@ domain('ptt.cc') {
     font-family: "標楷體", Sans-Serif !important;
   }
 }
+
+/* 調整優惠券寬度 */
+@-moz-document url-prefix('https://www.dlsite.com/maniax/coupon') {
+
+  #couponget .couponget_lst_item {
+    width: 408px;
+  }
+}
