@@ -11,18 +11,20 @@ domain('youtube.com'),
 domain('yuplay.ru') {
 
   a,
-  p,
-  span,
+  button,
+  div,
   h1,
   h2,
   h3,
   h4,
   h5,
   h6,
-  th,
-  td,
   input,
-  textarea {
+  p,
+  span,
+  td,
+  textarea,
+  th {
     font-family: FontAwesome, "Fira Code", "源泉圓體", "jf open 粉圓 1.1", "Noto Sans CJK JP", "Noto Sans TC",
       sans-serif !important;
   }
@@ -32,18 +34,20 @@ domain('yuplay.ru') {
 domain('ptt.cc') {
 
   a,
-  p,
-  span,
+  button,
+  div,
   h1,
   h2,
   h3,
   h4,
   h5,
   h6,
-  th,
-  td,
   input,
-  textarea {
+  p,
+  span,
+  td,
+  textarea,
+  th {
     font-family: "標楷體", sans-serif !important;
   }
 }
