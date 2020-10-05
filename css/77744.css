@@ -1,12 +1,13 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
-@-moz-document domain('the.dns'),
-domain('dlsite.com'),
+@-moz-document domain('dlsite.com'),
 domain('jandi.com'),
 domain('ruten.com.tw'),
 domain('shopee.tw'),
 domain('techbang.com'),
 domain('telegram.org'),
+domain('the.dns'),
+domain('youtube.com'),
 domain('yuplay.ru') {
 
   *,
@@ -24,14 +25,14 @@ domain('yuplay.ru') {
   th,
   td {
     font-family: FontAwesome, Ubuntu, "源泉圓體", "jf open 粉圓 1.1",
-      "Noto Sans CJK JP", "Noto Sans TC", Sans-Serif !important;
+      "Noto Sans CJK JP", "Noto Sans TC", sans-serif !important;
   }
 }
 
 @-moz-document domain('disp.cc'),
 domain('ptt.cc') {
   * {
-    font-family: "標楷體", Sans-Serif !important;
+    font-family: "標楷體", sans-serif !important;
   }
 }
 
