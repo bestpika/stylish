@@ -10,12 +10,9 @@ domain('the.dns'),
 domain('youtube.com'),
 domain('yuplay.ru') {
 
-  *,
-  html,
-  body,
+  a,
   p,
   span,
-  a,
   h1,
   h2,
   h3,
@@ -24,21 +21,31 @@ domain('yuplay.ru') {
   h6,
   th,
   td {
-    font-family: FontAwesome, Ubuntu, "源泉圓體", "jf open 粉圓 1.1",
-      "Noto Sans CJK JP", "Noto Sans TC", sans-serif !important;
+    font-family: FontAwesome, "Fira Code", "源泉圓體", "jf open 粉圓 1.1", "Noto Sans CJK JP", "Noto Sans TC",
+      sans-serif !important;
   }
 }
 
 @-moz-document domain('disp.cc'),
 domain('ptt.cc') {
-  * {
+
+  a,
+  p,
+  span,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  th,
+  td {
     font-family: "標楷體", sans-serif !important;
   }
 }
 
 /* 調整優惠券寬度 */
 @-moz-document url-prefix('https://www.dlsite.com/maniax/coupon') {
-
   #couponget .couponget_lst_item {
     width: 408px;
   }
