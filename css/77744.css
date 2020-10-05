@@ -20,7 +20,9 @@ domain('yuplay.ru') {
   h5,
   h6,
   th,
-  td {
+  td,
+  input,
+  textarea {
     font-family: FontAwesome, "Fira Code", "源泉圓體", "jf open 粉圓 1.1", "Noto Sans CJK JP", "Noto Sans TC",
       sans-serif !important;
   }
@@ -39,7 +41,9 @@ domain('ptt.cc') {
   h5,
   h6,
   th,
-  td {
+  td,
+  input,
+  textarea {
     font-family: "標楷體", sans-serif !important;
   }
 }
