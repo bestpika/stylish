@@ -10,7 +10,7 @@ domain('the.dns'),
 domain('youtube.com'),
 domain('yuplay.ru') {
 
-  [class^=ytd-],
+  [class*=ytd-],
   a,
   button,
   div,
