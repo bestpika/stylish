@@ -1,0 +1,22 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document
+
+/**/
+url('http://clients3.google.com/cast/chromecast/home'),
+url('http://clients5.google.com/cast/chromecast/home'),
+url('https://clients3.google.com/cast/chromecast/home'),
+url('https://clients5.google.com/cast/chromecast/home'),
+/**/
+  {
+  body.R1s0ee {
+    width: 100%;
+    height: 100%;
+  }
+
+  .zTETae-bF1uUb {
+    background: linear-gradient(to top,
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0) 100%);
+  }
+}
