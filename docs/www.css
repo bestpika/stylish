@@ -95,3 +95,15 @@ domain('steamdb.info'),
     filter: none !important;
   }
 }
+
+/* 隱藏標誌 */
+@-moz-document
+
+/**/
+domain('kktv.me'),
+/**/
+  {
+  .player__logo {
+    display: none;
+  }
+}
