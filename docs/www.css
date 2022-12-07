@@ -1,0 +1,97 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+/* 網站字型設定 */
+@-moz-document
+
+/**/
+domain('amazon.co.jp'),
+domain('dlsite.com'),
+domain('iqt.ai'),
+domain('jandi.com'),
+domain('kktv.me'),
+domain('pionex.com'),
+domain('reshapeapi.com'),
+domain('ruten.com.tw'),
+domain('shopee.tw'),
+domain('techbang.com'),
+domain('telegram.org'),
+domain('the.dns'),
+domain('to-do.live.com'),
+domain('youtube.com'),
+domain('yuplay.ru'),
+/**/
+  {
+
+  [class*=ytd-],
+  a,
+  button,
+  div,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  input,
+  p,
+  select,
+  span,
+  td,
+  textarea,
+  th {
+    font-family: FontAwesome, "Fira Code", "源泉圓體", "jf open 粉圓 1.1", "Noto Sans CJK JP", "Noto Sans TC",
+      sans-serif !important;
+  }
+}
+
+/* 網站等寬字型 */
+@-moz-document
+
+/**/
+domain('disp.cc'),
+domain('ptt.cc'),
+/**/
+  {
+
+  a,
+  button,
+  div,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  input,
+  p,
+  span,
+  td,
+  textarea,
+  th {
+    font-family: "標楷體", sans-serif !important;
+  }
+}
+
+/* 調整優惠券寬度 */
+@-moz-document
+
+/**/
+url-prefix('https://www.dlsite.com/maniax/coupon'),
+/**/
+  {
+  #couponget .couponget_lst_item {
+    width: 408px;
+  }
+}
+
+/* STEAMDB 成人不要模糊化 */
+@-moz-document
+
+/**/
+domain('steamdb.info'),
+/**/
+  {
+  .hover_screenshots_blur {
+    filter: none !important;
+  }
+}
