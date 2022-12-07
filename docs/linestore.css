@@ -1,0 +1,12 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document
+
+/**/
+url-prefix('https://store.line.me/stickershop/product'),
+/**/
+  {
+  div.MdCMN09DetailView.mdCMN09Sticker {
+    width: 780px;
+  }
+}
