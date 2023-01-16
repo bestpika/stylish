@@ -4,20 +4,31 @@
 @-moz-document
 
 /**/
+domain('aicamp.so'),
 domain('amazon.co.jp'),
+domain('bing.com'),
+domain('booth.pm'),
 domain('dlsite.com'),
+domain('dmm.co.jp'),
+domain('dmm.com'),
 domain('iqt.ai'),
 domain('jandi.com'),
 domain('kktv.me'),
+domain('to-do.live.com'),
+domain('multcloud.com'),
 domain('pionex.com'),
 domain('reshapeapi.com'),
 domain('retool.com'),
+domain('rochat.ai'),
 domain('ruten.com.tw'),
+domain('dns.safu.pw'),
+domain('sonkwo.hk'),
 domain('shopee.tw'),
+domain('shroud.email'),
 domain('techbang.com'),
 domain('telegram.org'),
-domain('the.dns'),
-domain('to-do.live.com'),
+domain('threads.net'),
+domain('workramen.com'),
 domain('youtube.com'),
 domain('yuplay.ru'),
 /**/
@@ -40,8 +51,12 @@ domain('yuplay.ru'),
   td,
   textarea,
   th {
-    font-family: FontAwesome, "Fira Code", "源泉圓體", "jf open 粉圓 1.1", "Noto Sans CJK JP", "Noto Sans TC",
+    font-family: FontAwesome, 'Fira Code Retina', '源泉圓體', 'jf open 粉圓 1.1', 'Noto Sans CJK JP', 'Noto Sans TC',
       sans-serif !important;
+  }
+
+  code {
+    font-family: 'Fira Code Retina', 'Courier New', Courier, monospace !important;
   }
 }
 
@@ -69,7 +84,7 @@ domain('ptt.cc'),
   td,
   textarea,
   th {
-    font-family: "標楷體", sans-serif !important;
+    font-family: '標楷體', sans-serif !important;
   }
 }
 
