@@ -51,7 +51,10 @@ domain('yuplay.ru'),
   td,
   textarea,
   th {
-    font-family: FontAwesome, 'Fira Code Retina', '源泉圓體', 'jf open 粉圓 1.1', 'Noto Sans CJK JP', 'Noto Sans TC',
+    font-family:
+      'Membership Icons', FontAwesome,
+      'Fira Code Retina',
+      '源泉圓體', 'jf open 粉圓 1.1', 'Noto Sans CJK JP', 'Noto Sans TC',
       sans-serif !important;
   }
 
