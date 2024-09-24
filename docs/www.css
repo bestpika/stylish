@@ -5,6 +5,8 @@
 /**/
 domain('aicamp.so'),
 domain('amazon.co.jp'),
+domain('amwork.com'),
+domain('appsumo.com'),
 domain('bing.com'),
 domain('booth.pm'),
 domain('dlsite.com'),
@@ -12,8 +14,11 @@ domain('dmm.co.jp'),
 domain('dmm.com'),
 domain('iqt.ai'),
 domain('jandi.com'),
+domain('keylol.com'),
 domain('kktv.me'),
+domain('linkedin.com'),
 domain('to-do.live.com'),
+domain('lunabot.ai'),
 domain('multcloud.com'),
 domain('pionex.com'),
 domain('reshapeapi.com'),
@@ -21,17 +26,23 @@ domain('retool.com'),
 domain('rochat.ai'),
 domain('ruten.com.tw'),
 domain('dns.safu.pw'),
-domain('sonkwo.hk'),
 domain('shopee.tw'),
 domain('shroud.email'),
+domain('sonkwo.hk'),
+domain('sorrix.com'),
 domain('techbang.com'),
 domain('telegram.org'),
 domain('threads.net'),
 domain('workramen.com'),
 domain('youtube.com'),
 domain('yuplay.ru'),
+url('https://ani.gamer.com.tw/seasonal.php'),
 /**/
+{
+  .material-icons-round
   {
+    font-family: 'Material Icons Round' !important;
+  }
 
   [class*=ytd-],
   a,
@@ -52,7 +63,6 @@ domain('yuplay.ru'),
   th
   {
     font-family:
-      'Membership Icons', FontAwesome,
       'Fira Code Retina',
       '源泉圓體', 'jf open 粉圓 1.1', 'Noto Sans CJK JP', 'Noto Sans TC',
       sans-serif !important;
