@@ -74,6 +74,32 @@ url('https://ani.gamer.com.tw/seasonal.php'),
   }
 }
 
+/* scrintal */
+@-moz-document
+/**/
+domain('scrintal.com'),
+/**/
+{
+  a,
+  div,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  span
+  {
+    font-family: 芫荽, sans-serif !important;
+  }
+
+  code
+  {
+    font-family: 'Fira Code Retina', 'Courier New', Courier, monospace !important;
+  }
+}
+
 /* 網站等寬字型 */
 @-moz-document
 /**/
@@ -106,7 +132,7 @@ domain('ptt.cc'),
 /**/
 url-prefix('https://www.dlsite.com/maniax/coupon'),
 /**/
-  {
+{
   #couponget .couponget_lst_item
   {
     width: 408px;
@@ -119,7 +145,7 @@ url-prefix('https://www.dlsite.com/maniax/coupon'),
 /**/
 domain('steamdb.info'),
 /**/
-  {
+{
   .hover_screenshots_blur
   {
     filter: none !important;
