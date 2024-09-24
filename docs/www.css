@@ -2,7 +2,6 @@
 
 /* 網站字型設定 */
 @-moz-document
-
 /**/
 domain('aicamp.so'),
 domain('amazon.co.jp'),
@@ -50,7 +49,8 @@ domain('yuplay.ru'),
   span,
   td,
   textarea,
-  th {
+  th
+  {
     font-family:
       'Membership Icons', FontAwesome,
       'Fira Code Retina',
@@ -58,20 +58,19 @@ domain('yuplay.ru'),
       sans-serif !important;
   }
 
-  code {
+  code
+  {
     font-family: 'Fira Code Retina', 'Courier New', Courier, monospace !important;
   }
 }
 
 /* 網站等寬字型 */
 @-moz-document
-
 /**/
 domain('disp.cc'),
 domain('ptt.cc'),
 /**/
-  {
-
+{
   a,
   button,
   div,
@@ -86,19 +85,20 @@ domain('ptt.cc'),
   span,
   td,
   textarea,
-  th {
+  th
+  {
     font-family: '標楷體', sans-serif !important;
   }
 }
 
 /* 調整優惠券寬度 */
 @-moz-document
-
 /**/
 url-prefix('https://www.dlsite.com/maniax/coupon'),
 /**/
   {
-  #couponget .couponget_lst_item {
+  #couponget .couponget_lst_item
+  {
     width: 408px;
   }
 }
@@ -110,19 +110,8 @@ url-prefix('https://www.dlsite.com/maniax/coupon'),
 domain('steamdb.info'),
 /**/
   {
-  .hover_screenshots_blur {
-    filter: none !important;
-  }
-}
-
-/* 隱藏標誌 */
-@-moz-document
-
-/**/
-domain('kktv.me'),
-/**/
+  .hover_screenshots_blur
   {
-  .player__logo {
-    display: none;
+    filter: none !important;
   }
 }
