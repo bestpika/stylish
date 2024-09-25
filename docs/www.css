@@ -39,6 +39,11 @@ domain('yuplay.ru'),
 url('https://ani.gamer.com.tw/seasonal.php'),
 /**/
 {
+  .mee-icon
+  {
+    font-family: 'Membership Icons' !important;
+  }
+
   .material-icons-round
   {
     font-family: 'Material Icons Round' !important;
