@@ -44,6 +44,11 @@ url('https://ani.gamer.com.tw/seasonal.php'),
     font-family: 'Membership Icons' !important;
   }
 
+  .win-icon
+  {
+    font-family: "Dev Center MDL2 Assets", "Steering Wheel MDL2 Assets", "Membership MDL2 Assets" !important;
+  }
+
   .material-icons-round
   {
     font-family: 'Material Icons Round' !important;
