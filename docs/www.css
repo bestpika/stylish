@@ -39,21 +39,25 @@ domain('yuplay.ru'),
 url('https://ani.gamer.com.tw/seasonal.php'),
 /**/
 {
-  .mee-icon
+  /* KKTV */
+  .video-quality-item
   {
-    font-family: 'Membership Icons' !important;
+    font-family: 'kktv-icon-font' !important;
   }
-
-  .win-icon
-  {
-    font-family: "Dev Center MDL2 Assets", "Steering Wheel MDL2 Assets", "Membership MDL2 Assets" !important;
-  }
-
+  /* icons */
   .material-icons-round
   {
     font-family: 'Material Icons Round' !important;
   }
-
+  .mee-icon
+  {
+    font-family: 'Membership Icons' !important;
+  }
+  .win-icon
+  {
+    font-family: "Dev Center MDL2 Assets", "Steering Wheel MDL2 Assets", "Membership MDL2 Assets" !important;
+  }
+  /* general */
   [class*=ytd-],
   a,
   button,
