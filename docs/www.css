@@ -124,7 +124,9 @@ url('https://ani.gamer.com.tw/seasonal.php'),
   span,
   td,
   textarea,
-  th
+  th,
+  ul,
+  li
   {
     font-family:
       'Tahoma',
