@@ -138,7 +138,8 @@ url('https://ani.gamer.com.tw/seasonal.php'),
       sans-serif !important;
   }
 
-  code
+  code,
+  code *
   {
     font-family: 'Fira Code Retina', 'Courier New', Courier, monospace !important;
   }
