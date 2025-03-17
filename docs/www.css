@@ -112,6 +112,12 @@ url('https://ani.gamer.com.tw/seasonal.php'),
     font-family: "Dev Center MDL2 Assets", "Steering Wheel MDL2 Assets", "Membership MDL2 Assets" !important;
   }
   /* general */
+  code,
+  code *
+  {
+    font-family: 'Fira Code Retina', 'Courier New', Courier, monospace !important;
+  }
+
   [class*=ytd-],
   a,
   button,
@@ -137,12 +143,6 @@ url('https://ani.gamer.com.tw/seasonal.php'),
       '源泉圓體', 'jf open 粉圓 1.1', 'Noto Sans CJK JP', 'Noto Sans TC',
       sans-serif !important;
   }
-
-  code,
-  code *
-  {
-    font-family: 'Fira Code Retina', 'Courier New', Courier, monospace !important;
-  }
 }
 
 /* scrintal */
@@ -151,6 +151,12 @@ url('https://ani.gamer.com.tw/seasonal.php'),
 domain('scrintal.com'),
 /**/
 {
+  code,
+  code *
+  {
+    font-family: 'Fira Code Retina', 'Courier New', Courier, monospace !important;
+  }
+
   a,
   div,
   h1,
@@ -163,11 +169,6 @@ domain('scrintal.com'),
   span
   {
     font-family: 芫荽, sans-serif !important;
-  }
-
-  code
-  {
-    font-family: 'Fira Code Retina', 'Courier New', Courier, monospace !important;
   }
 }
 
