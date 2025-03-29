@@ -1,0 +1,24 @@
+*
+,h1,h2,h3,h4,p,span,a
+,div,button
+,[class*=header]
+,[class*=heading-md]
+,[class*=text-xs]
+,[class*=text-sm]
+,[class*=text-md]
+{
+  font-family: '芫荽';
+}
+
+code,code td>span,
+[class^=codeBlockSyntax_] span,
+[class^=codeLine_] span
+{
+  font-family: 'Maple Mono NF CN','Fira Code Retina';
+}
+
+[class^=listItem]:has([aria-label=下載應用程式])
+{
+  display: none;
+  visibility: hidden;
+}
