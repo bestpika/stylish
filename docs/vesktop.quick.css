@@ -17,6 +17,7 @@ code,code td>span,
   font-family: 'Maple Mono NF CN','Fira Code Retina';
 }
 
+[class^=channel_]:has([href="/shop"]),
 [class^=listItem]:has([aria-label=下載應用程式])
 {
   display: none;
