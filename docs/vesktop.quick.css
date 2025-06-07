@@ -1,10 +1,12 @@
 *
-,a,button,div
+,div
 ,h1,h2,h3,h4,h5,h6
-,p,span
+,p,span,a
+,::placeholder,body,button,input,select,textarea
 ,[class*=header]
 ,[class*=heading-]
 ,[class*=text-]
+,[class*=eyebrow_]
 {
   font-family: '芫荽','Maple Mono NF CN','sans-serif';
 }
