@@ -116,7 +116,7 @@ url('https://ani.gamer.com.tw/seasonal.php'),
     font-family: 'kktv-icon-font' !important;
   }
   /* icons */
-  .Globe
+  span[style*='AMC Icons']
   {
     font-family: 'AMC Icons' !important;
   }
@@ -130,7 +130,7 @@ url('https://ani.gamer.com.tw/seasonal.php'),
   }
   .win-icon
   {
-    font-family: "Dev Center MDL2 Assets", "Steering Wheel MDL2 Assets", "Membership MDL2 Assets" !important;
+    font-family: 'Dev Center MDL2 Assets', 'Steering Wheel MDL2 Assets', 'Membership MDL2 Assets' !important;
   }
   /* general */
   [class*=ytd-],
