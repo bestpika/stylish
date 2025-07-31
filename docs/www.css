@@ -37,7 +37,6 @@ domain('video.friday.tw'),
 /*G*/
 domain('genspark.ai'),
 domain('getmerlin.in'),
-domain('gobu.ai'),
 /*H*/
 domain('halumai.com'),
 /*I*/
@@ -170,6 +169,7 @@ url('https://ani.gamer.com.tw/seasonal.php'),
 /* scrintal */
 @-moz-document
 /**/
+domain('gobu.ai'),
 domain('scrintal.com'),
 /**/
 {
