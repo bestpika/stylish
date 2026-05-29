@@ -45,7 +45,6 @@ domain('in2x.com'),
 domain('iqt.ai'),
 domain('jandi.com'),
 domain('keylol.com'),
-domain('kktv.me'),
 domain('lemsubs.com'),
 domain('line.biz'),
 domain('line.me'),
@@ -120,11 +119,6 @@ domain('gemini.google.com'),
 url('https://ani.gamer.com.tw/seasonal.php'),
 /**/
 {
-  /* KKTV */
-  .video-quality-item
-  {
-    font-family: 'kktv-icon-font' !important;
-  }
   /* icons */
   span[style*='AMC Icons']
   {
@@ -133,6 +127,10 @@ url('https://ani.gamer.com.tw/seasonal.php'),
   .docon
   {
     font-family: 'docons' !important;
+  }
+  .google-symbols
+  {
+    font-family: 'Google Symbols' !important;
   }
   .material-icons-round
   {
