@@ -120,7 +120,11 @@ url('https://ani.gamer.com.tw/seasonal.php'),
 /**/
 {
   /* icons */
-  span[style*='AMC Icons']
+  [class*='vjs-']
+  {
+    font-family: 'VideoJS' !important;
+  }
+  [style*='AMC Icons']
   {
     font-family: 'AMC Icons' !important;
   }
