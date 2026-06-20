@@ -227,7 +227,8 @@ domain('minimarks.com'),
     unicode-range: U+00-024F;
   }
 
-  .bookmark
+  .bookmark,
+  .section-title
   {
     font-family: 'LatinText','芫荽','Maple Mono NF CN','sans-serif';
   }
