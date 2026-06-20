@@ -215,6 +215,24 @@ domain('discord.com'),
   }
 }
 
+/* Minimarks */
+@-moz-document
+/**/
+domain('minimarks.com'),
+/**/
+{
+  @font-face {
+    font-family: "LatinText";
+    src: local("Maple Mono NF CN"),local("Fira Code Retina");
+    unicode-range: U+00-024F;
+  }
+
+  .bookmark
+  {
+    font-family: 'LatinText','芫荽','Maple Mono NF CN','sans-serif';
+  }
+}
+
 /* scrintal */
 @-moz-document
 /**/
